@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&display=swap");
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: hsl(30, 38%, 92%);
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.btn {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+
+.product-image img {
+    height: 550px;
+    border-radius: 15px 0 0 15px;
+    box-sizing: border-box;
+}
+
+.product-content {
+    text-align: left;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 15px 15px 0;
+}
+
+.product-title {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 1rem;
+    color: hsl(228, 12%, 48%);
+}
+
+.product-name {
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.product-detail {
+    color: hsl(228, 12%, 48%);
+    line-height: 30px;
+}
+
+.prices {
+    display: flex;
+    padding: 30px 0;
+    /* justify-content: space-between; */
+}
+
+.current-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    flex-grow: 2;
+}
+
+.previous-price {
+    align-items: center;
+    color: hsl(228, 12%, 48%);
+    font-size: 1rem;
+    flex-grow: 3;
+    padding-top: 10px;
+    text-decoration: line-through;
+}
+
+.attribution {
+    margin-top: 50px;
+}
+
+@media (max-width:680px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .product-image img {
+        border-radius: 15px 15px 0 0;
+        width: 70%;
+    }
+
+    .product-content {
+        border-radius: 0 0 15px 15px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+}
