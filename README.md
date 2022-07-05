@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/html-css-sWvNl_M8ho)
-- Live Site URL: [](https://noble-genius.github.io/product-preview-card-component/)
+- Solution URL: ![](https://www.frontendmentor.io/solutions/html-css-sWvNl_M8ho)
+- Live Site URL: ![](https://noble-genius.github.io/product-preview-card-component/)
 
 
 ## My process
